@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador</p>
+
+<picture>
+
+    <source media="(max-width:750px )" srcset="imagens/fotop.png">
+    <source media="(max-width:1050px )" srcset="imagens/fotom.png">
+    <img src="imagens/fotog.png" alt="fotog">
+</picture>
+
+
+<h1>Reproduzindo audio</h1>
+<p>Vamos aprender a reproduzir audio no HTML5</p>
+<audio src="midia/Brody Dalle - Rat Race_50k.mp3" controls autoplay></audio>
+<!--compattivel com os formatos MP3 WAV e OGG-->>
+
+<h1>Forma correta de reproduzir audio</h1>
+<audio preload="metadata" autoplay controls loop>
+<source src="midia/Brody Dalle - Rat Race_50k.mp3" type="audio/mpeg">
+</audio>
+<p>Ouça agora ou então baixe o arquivo: <a href="midia/Brody Dalle - Rat Race_50k.mp3">Clique aqui para baixar</a></p>
+
+</body>
+</html>
