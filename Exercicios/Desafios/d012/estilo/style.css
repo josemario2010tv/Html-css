@@ -1,2 +1,69 @@
+@charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+   font-variant: small-caps;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;  /* espaço do conteudo para o topo do espaço */
+    padding-bottom: 10vh; /* espaço do conteudo para a parte de baixo do espaço */
+    line-height: 2em; /* espaço entre as linhas escritas */
+    padding-left: 30px; /*margem do canto da pagina */
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(160, 157, 157);
+    color: white ;
+
+}
+
+section.imagem > p /* para selecionar paragrafo dentro da clase imagem da sessão */{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
 
